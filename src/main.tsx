@@ -4,7 +4,8 @@ import './index.css'
 import App from './App'
 import { ConfigProvider } from './context/ConfigContext'
 
-createRoot(document.getElementById('root')!).render(
+const root = document.getElementById('root')!
+createRoot(root).render(
   <StrictMode>
     <ConfigProvider>
       <App />
