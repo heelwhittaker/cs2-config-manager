@@ -1,0 +1,20 @@
+[
+  {
+    "name": "bind",
+    "type": "command",
+    "syntax": "bind <key> <command>",
+    "description": "Bind a key to a command or list of commands."
+  },
+  {
+    "name": "+jump",
+    "type": "command",
+    "description": "Makes the player jump while the key is held."
+  },
+  {
+    "name": "cl_crosshairsize",
+    "type": "cvar",
+    "default": "5",
+    "description": "Controls the size of the crosshair.",
+    "flags": ["client"]
+  }
+]
